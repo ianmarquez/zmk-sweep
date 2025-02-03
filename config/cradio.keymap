@@ -6,6 +6,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/pointing.h>
 
 #define SYM_L 1
@@ -51,7 +52,6 @@
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>;
         };
 
-
         tapdance_q_esc: tapdance_q_esc {
             compatible = "zmk,behavior-tap-dance";
             label = "TAPDANCE_Q_ESC";
@@ -66,7 +66,7 @@
 
         default_layer {
             bindings = <
-&kp Q                 &kp W              &kp E                 &kp R              &kp T        &kp Y            &kp U               &kp I              &kp O               &kp P
+&tapdance_q_esc       &kp W              &kp E                 &kp R              &kp T        &kp Y            &kp U               &kp I              &kp O               &kp P
 &hrm_left LEFT_ALT A  &hrm_left LCTRL S  &hrm_left LEFT_WIN D  &hrm_left LSHFT F  &kp G        &kp H            &hrm_right RSHFT J  &hrm_right RGUI K  &hrm_right LCTRL L  &hrm_right RALT SQT
 &kp Z                 &kp X              &kp C                 &kp V              &kp B        &kp N            &kp M               &kp COMMA          &kp DOT             &kp FSLH
                                                                &lt 1 SPACE        &lt 4 TAB    &mt RCTRL ENTER  &lt 2 BSPC
