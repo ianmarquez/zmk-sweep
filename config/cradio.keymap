@@ -60,7 +60,7 @@
             bindings = <
 &kp EXCL                  &kp AT                        &kp POUND                    &kp DOLLAR                    &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp PIPE                 &kp AMPERSAND                  &kp ASTERISK       &kp CARET
 &hrm_left LEFT_ALT GRAVE  &hrm_left LCTRL SINGLE_QUOTE  &hrm_left LEFT_GUI KP_MINUS  &hrm_left LEFT_SHIFT KP_PLUS  &kp LEFT_BRACE          &kp RIGHT_BRACE        &hrm_right RSHIFT UNDER  &hrm_right RIGHT_GUI KP_EQUAL  &kp DOUBLE_QUOTES  &kp TILDE
-&none                     &none                         &trans                       &kp PERCENT                   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp BACKSLASH            &trans                         &trans             &trans
+&kp LS(SLASH)             &kp SEMI                      &kp LT                       &kp PERCENT                   &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp BACKSLASH            &kp GT                         &kp COLON          &kp QUESTION
                                                                                      &trans                        &trans                  &trans                 &trans
             >;
         };
