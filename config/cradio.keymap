@@ -2,6 +2,15 @@
  * Copyright (c) 2022 The ZMK Contributors
  * SPDX-License-Identifier: MIT
  */
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 2250
+#define U_MOUSE_MOVE_EXPONENT 2
+#define U_MOUSE_MOVE_TIME 650
+#define U_MOUSE_MOVE_DELAY 0
+
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
+#define U_MOUSE_SCROLL_EXPONENT 1
+#define U_MOUSE_SCROLL_TIME 5000
+#define U_MOUSE_SCROLL_DELAY 0
 
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
@@ -13,15 +22,6 @@
 #define SYM_L 1
 #define NUM_L 2
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 2250
-#define U_MOUSE_MOVE_EXPONENT 2
-#define U_MOUSE_MOVE_TIME 650
-#define U_MOUSE_MOVE_DELAY 0
-
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
-#define U_MOUSE_SCROLL_EXPONENT 1
-#define U_MOUSE_SCROLL_TIME 5000
-#define U_MOUSE_SCROLL_DELAY 0
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 
